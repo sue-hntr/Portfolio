@@ -1,0 +1,49 @@
+/* BOOTSTRAP NAVBAR Changes */
+.margleft{
+    margin-left: 50%!important;
+}
+
+
+/* COLORS */
+
+.gold {
+    background-color: #AB9531;}
+
+.dark_blue{
+    background-color: #02244A;}
+
+.peach_tan{
+    background-color: #FF9B73;}
+
+.denim_blue{
+    background-color: #406D7A;}
+
+.tan{
+    background-color: #BD8D62;}
+
+.green_gold{
+    background-color: #B1A062;}
+
+.gold_grade{
+    background-image: linear-gradient(
+    rgba(171, 149, 49, .1), rgba(171, 149, 49, 1));
+}
+.dark_blue_grade{
+    background-image: linear-gradient(
+        rgba(2, 36, 74, .1), rgba(2, 36, 74, 1));
+}
+.peach_tan_grade{
+    background-color: #FF9B73;
+    rgb(255, 155, 115)}
+
+.denim_blue_grade{
+    background-color: #406D7A;
+    rgb(64, 109, 122)}
+
+.tan_grade{
+    background-color: #BD8D62;
+    rgb(189, 141, 98)}
+
+.green_gold_grade{
+    background-color: #B1A062;
+    rgb(177, 160, 98)}
