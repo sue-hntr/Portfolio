@@ -5,6 +5,13 @@
 
 
 /* COLORS */
+.ltrblack{
+    color: black;
+}
+.ltrwhite{
+    color: white;
+}
+
 
 .gold {
     background-color: #AB9531;}
@@ -30,20 +37,21 @@
 }
 .dark_blue_grade{
     background-image: linear-gradient(
-        rgba(2, 36, 74, .1), rgba(2, 36, 74, 1));
+    rgba(2, 36, 74, .5), rgba(2, 36, 74, 1));
 }
 .peach_tan_grade{
-    background-color: #FF9B73;
-    rgb(255, 155, 115)}
-
+    background-image: linear-gradient(
+    rgba(255, 155, 115, .1), rgba(255, 155, 115, 1))!important;
+}
 .denim_blue_grade{
-    background-color: #406D7A;
-    rgb(64, 109, 122)}
-
+    background-image: linear-gradient(
+    rgba(64, 109, 122, .5), rgba(64, 109, 122, 1))!important; 
+}
 .tan_grade{
-    background-color: #BD8D62;
-    rgb(189, 141, 98)}
-
+    background-image: linear-gradient(
+    rgba(189, 141, 98, .1), rgba(189, 141, 98, 1))!important;
+}
 .green_gold_grade{
-    background-color: #B1A062;
-    rgb(177, 160, 98)}
+    background-image: linear-gradient(
+    rgba(177, 160, 98, .1), rgba(177, 160, 98, 1))!important;
+}
