@@ -1,3 +1,15 @@
+/* @media all and (min-width:420px) {
+    body {
+         background-color : red;
+         }
+  } */
+ /* @media all and (max-width:420px) {
+    body {
+         background-color : black;
+         }
+  } */
+
+
 /* BOOTSTRAP Changes */
 .margleft{
     margin-left: 55%!important;
@@ -14,12 +26,20 @@ a:hover {
     background-color: #e7e7e7;
 }
 .img-responsive{
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 }
+.pt-50 {
+        padding-top: 4rem!important;
+        padding-left: 10px;
+        padding-right: 10px;}
+@media only screen and (min-width: 581px) {
+    .pt-50 {
+        padding-top: 6rem!important;}}
+
 
 /****** CONTENT COLORS******/
-
+/* FONT COLORS */
 .ltrblack{
     color: black;
 }
@@ -30,7 +50,7 @@ height: auto;
     color: #02244A!important;
 }
 
-/* Notes final colors */
+/* BACKGROUND COLORS */
 .dark_blue{
     background-color: #02244A;}
 
@@ -40,6 +60,7 @@ height: auto;
 .denim_blue{
     background-color: #9bc0ca;}
 
+/* GRADIENT BACKGROUND COLORS     */
 .dark_blue_grade{
     background-image: linear-gradient(
     rgba(2, 36, 74, .4), rgba(2, 36, 74, 1));
@@ -53,27 +74,22 @@ height: auto;
     rgba(155, 192, 202, .1), rgba(155, 192, 202, 1))!important; 
 }
 
+/****** CONTENT TEXT ADDING INSIDE COLOR BLOCKS******/
+.pad_top{
+    padding-top: 3rem;
+}
+.pad_btm{
+    padding-bottom: 3rem!important;
+}
+        
 /****** CONTENT TEXT POSITION******/
+
+/* @media screen and (min-width: 300px) and (max-width: 600px) { */
 .contain_ctr{
-    height: 600px;
     width: 100%;
     position: relative;
 }
-@media screen and (min-width: 300px) and (max-width: 570px) {
-    .contain_ctr{
-        height: 800px;
-        /* width: 100%;
-        position: relative;
-     */
-}}
-
-.contain_ctr{
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
-
-.contain_ctr_sml{
+/* .contain_ctr_sml{
     height: 400px;
     width: 100%;
     position: relative;
@@ -82,15 +98,7 @@ height: auto;
     height: 250px;
     width: 100%;
     position: relative;
-}
-.vertical-ctr{
-    margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+} */
 
 .contact-hr{
     border: white 1px solid;
@@ -101,20 +109,55 @@ height: auto;
     width: 96%
 }
 ul{
-    list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 /* CONTENT FONTS */
-.ost{
+/* TITLE FONT IS OLD STANDARD */
+h1.ost{
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-bottom: 20px;}
+@media only screen and (min-width: 992px){
+    .ost h1, h1.ost{
+        font-family: 'Old Standard TT', serif;
+        font-size: 5rem;
+        font-weight: 400;}}
+   
+/* Apostrophes for open Sans Quotes */
+.ost-apost{
     font-family: 'Old Standard TT', serif;
 }
-.opensans{
-    font-family: 'Open Sans', sans-serif;
+.opensans p, p.opensans {
+    font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+    font-size: 12px!important;
     font-weight: 400;
-    font-size: 1.25rem;
+    line-height: 1.5rem;}
+@media only screen and (min-width: 768px){
+    p.opensans {
+        margin-top: -10px;
+        font-size: 18px!important;
+        text-align: center;
+        line-height: 2rem; } }
+
+
+/* EDITING PORTFOLIO BOX */
+/* .pad_port_top{
+    .pad_port_top {
+        padding-top: 0px!important;}
+
 }
+@media only screen and (min-width: 990px) {
+    .pad_port_top {
+        padding-top: 30px!important;} */
+        
+
+
+
+
 
 /* PORTFOLIO BOX copied from codepen */
 .portfolio-box {
@@ -130,7 +173,7 @@ ul{
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(255, 155, 115, 0.7);
+    background: rgba(255, 155, 115, 0.8);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -173,3 +216,18 @@ ul{
       font-size: 22px;
     }
   }
+
+
+
+  /* notes
+  // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
