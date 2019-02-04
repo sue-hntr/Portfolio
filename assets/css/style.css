@@ -93,11 +93,24 @@ ul{
   padding: 0;
 }
 li{
+    font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Droid Sans', sans-serif;
+    font-size: 14px!important;
+    font-weight: 400;
     padding-bottom: 15px;
 }
 .contact_list{
-    margin-left: 25%;
+    margin-left: 5%;
+    margin-right: 10%;
 }
+@media only screen and (min-width: 400px) and (max-width: 920px){
+.contact_list{
+    margin-left: 20%;
+}}
+@media only screen and (min-width: 921px) {
+    .contact_list{
+        margin-left: 30%;
+    }}
+
 
 /* CONTENT FONTS */
 /* TITLE FONT IS OLD STANDARD */
