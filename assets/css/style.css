@@ -12,6 +12,10 @@
 .padtop{
     margin-top: 100px;
 }
+
+.padtop2{
+    margin-top: 50px;
+}
 a:hover {
     background-color: #e7e7e7;
 }
